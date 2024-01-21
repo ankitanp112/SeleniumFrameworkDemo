@@ -15,6 +15,9 @@ public class addressPage_finalPage extends reusableMethods {
 	WebDriver driver;
 	//I will just create a variable to show the git pull
 	int x;
+
+	//Adding from other server
+	int y, z;
 	
 	public addressPage_finalPage(WebDriver driver) {
 		
