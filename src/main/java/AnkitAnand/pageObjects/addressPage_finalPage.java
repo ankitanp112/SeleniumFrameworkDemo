@@ -13,7 +13,8 @@ import AnkitAnand.AbstractComponents.reusableMethods;
 public class addressPage_finalPage extends reusableMethods {
 	
 	WebDriver driver;
-	
+	//I will just create a variable to show the git pull
+	int x;
 	
 	public addressPage_finalPage(WebDriver driver) {
 		
@@ -49,7 +50,8 @@ public class addressPage_finalPage extends reusableMethods {
 		//This will also work --> Boolean res = confirmationMessage.contentEquals("THANKYOU FOR THE ORDER.");
 		Assert.assertTrue(confirmationMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 	}
-	
+
+
 	
 	
 
