@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="1" name="Submit Order Test">
+    <classes>
+      <class name="AnkitAnand.test.pomTestCleanCode"/>
+    </classes>
+  </test> 
+  
+  <!-- Thread Count Can be set based on the requirement -->
+  <test thread-count="1" name="Error Validation Tests">
+  	<classes>
+		  <class name="AnkitAnand.test.pomTestErrorValidation"/>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->
